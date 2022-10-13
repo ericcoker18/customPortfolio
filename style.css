@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F5F7;
+
+}
+
+li,
+a,
+button {
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #CCCCFF;
+    color: white;
+
+
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    letter-spacing: 3px;
+    font-size: 28px;
+    background-color: #CCCCFF;
+    font-family: "Trirong", serif;
+}
+
+.nav-links {
+    list-style: none;
+    background-color: #CCCCFF;
+
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #CCCCFF;
+
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    background-color: #CCCCFF;
+    font-size: 18px;
+    font-family: "Trirong", serif;
+
+}
+
+.nav-links li a:hover {
+    color: #CF9FFF;
+}
+
+button {
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    background-color: #CF9FFF;
+}
+
+.cta {
+    background-color: #CCCCFF;
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    position: relative;
+    top: 250px;
+    left: 100px;
+
+
+}
+
+h1 span {
+    display: inline-flex;
+    color: #CF9FFF;
+    cursor: pointer;
+
+
+
+}
+
+h1 span:nth-child(even) {
+    overflow: hidden;
+    transition: ease-in-out 0.5s;
+    color: #CCCCFF;
+    border-bottom: 8px solid #CF9FFF;
+
+}
+
+.mainPage {
+    display: flex;
+    justify-content: center;
+}
